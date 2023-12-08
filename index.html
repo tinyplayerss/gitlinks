@@ -17,24 +17,37 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
-    <a target="_blank" href="https://github.com/tinyplayerss">
-      <h1>
-        <i class="fa fa-github"></i>
-        Github
-        <p>tinyplayerss</p>
-      </h1>
-    </a>
-    <div class="container">
-      <!-- GitHub profile container -->
-      <div id="githubProfileContainer" class="text-center">
-        <!-- GitHub profile image and username will be dynamically added here using JavaScript -->
+  <body class="fs-1 m-0">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-4">
+          <div class="card bg-transparent vh-100">
+            <div class="card-header text-center">
+              <a id="brand" class="text-decoration-none link-light" target="_blank" href="https://github.com/tinyplayerss">
+                <i class="fa fa-github me-0"></i>
+                <span class="">Github</span>
+                <span class="fs-5 border-bottom border-danger link-dark align-top">tinyplayerss</span>
+              </a>
+              <div id="githubProfileContainer" class="text-center">
+                <!-- GitHub profile image and username will be dynamically added here using JavaScript -->
+              </div>
+            </div>
+            <div class="card-body overflow-x-hidden overflow-y-auto">
+              <div class="link-container" id="linkContainer">
+                <!-- Links will be dynamically added here using JavaScript -->
+                <ul class="list-unstyled position-relative mt-5"></ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+        </div>
       </div>
 
       <!-- Link container -->
-      <div class="link-container" id="linkContainer">
-        <!-- Links will be dynamically added here using JavaScript -->
-      </div>
+
     </div>
 
     <script
