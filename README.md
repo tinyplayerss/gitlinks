@@ -3,11 +3,14 @@ This is a linktree Project that can be Forked and be used by many Streamers/Crea
 
 ![Presenting linktree](https://github.com/tinyplayerss/linktree/assets/123846642/9a54a16c-747a-47a5-b37a-133e197c4699)
 
-
+<legend>
 <a target="_BLANK" href="https://paypal.me/2players1gamer"><img src="https://github.com/tinyplayerss/linktree/assets/123846642/4d60218d-4a4b-4b97-a46f-f767e444ce23" width="360" height="120"></a>
 <a target="_BLANK" href="https://rumble.com/tinywebdialog"><img src="https://github.com/tinyplayerss/linktree/assets/123846642/c009c81e-3191-488b-b421-a80d7de7f349" width="360" height="120"></a>
+</legend>
 
+# Instructions
 
-## Instructions
-
-First Fork this project then turn it into a "Github Page" then Fill in your user.json and Tada! You got a super Simple linktree! You can share to your Audience or to anyone you would like!
+- Fork this Repository.
+- Edit `user.json` to fill in your Github Username and Add your Links.
+- Publish your linktree Repo to Github Pages, Go to `Settings > Pages > Source: Deploy from Branch > Github Actions > Configure & Save` in a Couple minutes the Repo will turn into a website.
+- View your linktree with `https://yourgithubname.github.io/linktree`
