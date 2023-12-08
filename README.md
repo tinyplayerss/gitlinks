@@ -3,8 +3,10 @@ This is a linktree Project that can be Forked and be used by many Streamers/Crea
 
 ![Presenting linktree](https://github.com/tinyplayerss/linktree/assets/123846642/9a54a16c-747a-47a5-b37a-133e197c4699)
 
-![donatebutton](https://github.com/tinyplayerss/linktree/assets/123846642/4d60218d-4a4b-4b97-a46f-f767e444ce23)
-![dialogbutton](https://github.com/tinyplayerss/linktree/assets/123846642/c009c81e-3191-488b-b421-a80d7de7f349)
+
+<img src="https://github.com/tinyplayerss/linktree/assets/123846642/4d60218d-4a4b-4b97-a46f-f767e444ce23" width="60%" height="200" target="_BLANK" href="https://rumble.com">
+<img src="https://github.com/tinyplayerss/linktree/assets/123846642/c009c81e-3191-488b-b421-a80d7de7f349" width="60%" height="200">
+
 
 ## Instructions
 
