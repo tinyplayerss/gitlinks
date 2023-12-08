@@ -7,11 +7,13 @@ function createLinks() {
     },
     success: (userData) => {
       userData.links.forEach(linkData => {
-        $('#linkContainer').append(
-            '<a target="_blank" class="link" href="' + linkData.url + '">' +
-            '<img alt="Favicon" class="favicon" src="https://www.google.com/s2/favicons?domain=' + linkData.url + '" />' +
-            '<span>' + linkData.name + '</span>' +
-            '</a>'
+        $('#linkContainer ul').append(
+          '<li class="w-75 position-relative start-50 translate-middle m-0 mb-4 ps-4 pt-2 pb-2 rounded-pill border border-secondary list-item">'+
+            '<a target="_blank" class="row link text-decoration-none" href="' + linkData.url + '">' +
+              '<img alt="Favicon" class="favicon col-1 p-0 rounded-circle" src="https://www.google.com/s2/favicons?domain=' + linkData.url + '" />' +
+              '<span class="col-10 p-0 ps-2 overflow-x-hidden text-nowrap fs-3">' + linkData.name + '</span>' +
+            '</a>'+
+          '</li>'
         );
       });
 
@@ -22,8 +24,8 @@ function createLinks() {
         },
         success: (data) => {
           $('#githubProfileContainer').append(
-            '<img alt="GitHub Profile" class="github-profile-image" src="' + data.avatar_url + '"/>' +
-            '<p>' + data.login + '</p>'
+            '<img alt="GitHub Profile" class="rounded-circle w-25 border border-danger border-4 p-2" src="' + data.avatar_url + '"/>' +
+            '<div class="text-light fs-3">' + data.login + '</div>'
           );
         }
       });
