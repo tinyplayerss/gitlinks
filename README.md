@@ -9,7 +9,6 @@ This is a linktree Project that can be Forked and be used by many Streamers/Crea
 </legend>
 
 # Instructions
-
 - Fork this Repository.
 - Edit `user.json` to fill in your Github Username and Add your Links.
 - Publish your linktree Repo to Github Pages, Go to `Settings > Pages > Source: Deploy from Branch > Github Actions > Configure & Save` in a Couple minutes the Repo will turn into a website.
