@@ -1,4 +1,4 @@
-# linktree
+# GitLinks
 This is a linktree Project that can be Forked and be used by many Streamers/Creators
 
 ![Presenting linktree](https://github.com/tinyplayerss/linktree/assets/123846642/9a54a16c-747a-47a5-b37a-133e197c4699)
@@ -10,4 +10,4 @@ This is a linktree Project that can be Forked and be used by many Streamers/Crea
 - Fork this Repository.
 - Edit `user.json` to fill in your Github Username and Add your Links.
 - Publish your linktree Repo to Github Pages, Go to `Settings > Pages > Source: Deploy from Branch > Github Actions > Configure & Save` in a Couple minutes the Repo will turn into a website.
-- View your linktree with `https://yourgithubname.github.io/linktree`
+- View your linktree with `https://yourgithubname.github.io/gitlinks`
