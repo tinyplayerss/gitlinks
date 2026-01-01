@@ -1,17 +1,30 @@
 {
     "githubUsername": "tinyplayerss", 
     "links": [
-        { "name": "RumbleDash Track Your Goals!", "url": "https://custombar.github.io/RumbleDash/" },
-        { "name": "Buy me a Ko-fi", "url": "https://ko-fi.com/tinyplayerss" },
-        { "name": "Affiliated: Coffee Brand Coffee", "url": "https://coffeebrandcoffee.com/?ref=6n24Z4SuI5lPHz" },
-        { "name": "Affiliated: Nerd Or Die", "url": "https://nerdordie.com/shop/ref/tinyplayerss" },
-        { "name": "Affiliated: Eklipse.gg AI Clips", "url": "https://eklipse.gg/premium#TINY10" },
+        { "name": "spacer", "type": "spacer", "title": "Platforms i Stream on", "color": "#ffffff" },
+
         { "name": "I Stream on Rumble", "url": "https://rumble.com/c/tinyplayerss" },
+
+        { "name": "spacer", "type": "spacer", "title": "Donations", "color": "#ffffff" },
+
         { "name": "Rumble Wallet Tip Jar", "url": "https://wallet.rumble.com/tip/c/tinyplayerss" },
-        { "name": "X (formerly Twitter)", "url": "https://twitter.com/tinyplayerss" },
-        { "name": "Join the Discord", "url": "https://discord.gg/nJywsXTaFY" }
+        { "name": "Buy me a Ko-fi", "url": "https://ko-fi.com/tinyplayerss" },
+        { "name": "Donate Via PayPal", "url": "https://paypal.me/2players1Gamer" },
+
+        { "name": "spacer", "type": "spacer", "title": "My Projects", "color": "#ffffff" },
+        
+        { "name": "RumbleDash Track Your Goals!", "url": "https://custombar.github.io/RumbleDash/" },
+        { "name": "Gitlinks Get Yours here!", "url": "https://github.com/tinyplayerss/gitlinks" },
+
+        { "name": "spacer", "type": "spacer", "title": "Affiliated Links", "color": "#ffffff" },
+
+        { "name": "Coffee Brand Coffee - Good Coffee!", "url": "https://coffeebrandcoffee.com/?ref=6n24Z4SuI5lPHz" },
+        { "name": "Nerd Or Die - Stream Assets", "url": "https://nerdordie.com/shop/ref/tinyplayerss" },
+        { "name": "Eklipse.gg - AI Clipping Automatically", "url": "https://eklipse.gg/premium#TINY10" },
+
+        { "name": "spacer", "type": "spacer", "title": "Social Media", "color": "#ffffff" },
+
+        { "name": "Join the Community!", "url": "https://discord.gg/nJywsXTaFY" },
+        { "name": "X (formerly Twitter)", "url": "https://twitter.com/tinyplayerss" }
     ]
   }
-  
-
-

@@ -1,59 +1,135 @@
-body {
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
-  background-color: #0D1117;
-  color: #d8dee9;
-}
+/* Theme-aware styles using CSS variables.
+   - Dark is the default (defined in :root).
+   - Add class "theme-light" to <html> (or <body>) to enable the light theme overrides.
+   - All colorable elements read these variables so toggling the class flips the whole UI.
+*/
 
 :root {
+  /* --- Core tokens (dark defaults) --- */
+  --bg-color: #0D1117;             /* page background */
+  --text-color: #d8dee9;           /* page general text */
+  --item-text-color: #ffffff;      /* link/button text */
+  --item-bg-hover: rgb(16,23,33);  /* hover bg for list items */
+  --divider-color: #ffffff;        /* divider line and title color */
+  --brand-color: #ffffff;          /* branding / small labels (github, etc.) */
+  --username-color: var(--item-text-color);
+
+  /* Accent tokens (kept from prior file) */
   --red: #c22b3d;
-  --red-rgb: rgb(194, 43, 61);
   --blue: #4b6382;
-  --blue-rgb: rgb(75, 99, 130);
   --dark-blue: #101721;
-  --dark-blue-rgb: rgb(16, 23, 33);
-  --white: #ffffff;
-  --white-rgb: rgb(255, 255, 255);
-  --bs-danger-rgb: var(--red-rgb);
+
+  --favicon-size: 48px;
+  --bs-danger-rgb: 194, 43, 61; /* keep rgb for border rgba usage */
 }
 
+/* Light theme overrides: edit these to tune the light theme. */
+.theme-light, .theme-light :root {
+  --bg-color: #ffffff;
+  --text-color: #0d1117;
+  --item-text-color: #0d1117;      /* darker text on items for contrast */
+  --item-bg-hover: #f0f0f0;
+  --divider-color: #0d1117;
+  --brand-color: #0d1117;
+  --username-color: #0d1117;
+}
+
+/* Base page */
+html, body {
+  height: 100%;
+}
+body {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 200ms ease, color 200ms ease;
+}
+
+/* Accent / utility rules */
 .card-header a:hover {
   color: var(--red) !important;
 }
 
 .border-danger {
-  border-color: var(--bs-danger-rgb) !important;
+  border-color: rgba(var(--bs-danger-rgb), 1) !important;
 }
 
+/* Link style helpers */
 .link-dark {
-  color: var(--blue-rgb) !important;
-  -webkit-text-decoration-color: var(--blue-rgb) !important;
-  text-decoration-color: var(--blue-rgb) !important;
+  color: var(--blue) !important;
+  -webkit-text-decoration-color: var(--blue) !important;
+  text-decoration-color: var(--blue) !important;
 }
-
 .link-dark:focus, .link-dark:hover {
-  color: var(--blue-rgb) !important;
-  -webkit-text-decoration-color: var(--blue-rgb) !important;
-  text-decoration-color: var(--blue-rgb) !important;
+  color: var(--blue) !important;
 }
 
+/* Default link text color (theme-aware) */
 .link {
-  color: var(--white-rgb) !important;
-  -webkit-text-decoration-color: var(--white-rgb) !important;
-  text-decoration-color: var(--white-rgb) !important;
+  color: var(--item-text-color) !important;
+  -webkit-text-decoration-color: var(--item-text-color) !important;
+  text-decoration-color: var(--item-text-color) !important;
 }
 
-.list-item:focus, .list-item:hover {
-  color: var(--white-rgb) !important;
-  -webkit-text-decoration-color: var(--white-rgb) !important;
-  text-decoration-color: var(--white-rgb) !important;
-  background-color: var(--dark-blue-rgb);
+/* List (button) items */
+.list-item {
+  transition: background-color 160ms ease, color 160ms ease;
+}
+.list-item a {
+  color: var(--item-text-color);
+}
+.list-item:focus,
+.list-item:hover {
+  color: var(--item-text-color) !important;
+  background-color: var(--item-bg-hover);
 }
 
+/* Size & favicon */
 .list-item, .list-item a {
   height: 1.5em;
 }
+.list-item a img,
+.favicon {
+  width: var(--favicon-size);
+  height: var(--favicon-size);
+  object-fit: cover;
+  border-radius: 9999px;
+}
 
-.list-item a img {
-  width: 1em;
-  height: 1em;
+/* Divider / spacer styles
+   - If a spacer element sets --spacer-color (inline), it will be used.
+   - Otherwise fallback to --divider-color which is theme-controlled.
+*/
+.spacer-li .spacer-line {
+  background: var(--spacer-color, var(--divider-color));
+  opacity: 0.25;
+  height: 1px;
+  border-radius: 4px;
+  margin: 14px 12px;
+}
+.spacer-li .spacer-title {
+  color: var(--spacer-color, var(--divider-color));
+  background: var(--bg-color);
+  padding: 0 12px;
+  display: inline-block;
+  white-space: nowrap;
+  font-weight: 600;
+  font-size: 0.95rem;
+  opacity: 0.95;
+  position: relative;
+  z-index: 2;
+}
+
+/* Brand / GitHub area — use brand color so it flips with theme */
+#brand i.fa,
+#brand > span,
+#brand .fs-5,
+#githubProfileContainer .github-name {
+  color: var(--brand-color) !important;
+}
+
+/* Misc small responsive tweaks you may already have elsewhere */
+@media (max-width: 480px) {
+  .github-name { font-size: 1.1rem; }
+  .spacer-li .spacer-title { font-size: 0.9rem; }
 }
