@@ -25,6 +25,11 @@
         { "name": "spacer", "type": "spacer", "title": "Social Media", "color": "#ffffff" },
 
         { "name": "Join the Community!", "url": "https://discord.gg/nJywsXTaFY" },
-        { "name": "X (formerly Twitter)", "url": "https://twitter.com/tinyplayerss" }
+        { "name": "X (formerly Twitter)", "url": "https://twitter.com/tinyplayerss" },
+
+        { "name": "spacer", "type": "spacer", "title": "Promoting", "color": "#ffffff" },
+
+        { "name": "Stop Killing Games", "url": "stopkillingames.com" }
     ]
+
   }
