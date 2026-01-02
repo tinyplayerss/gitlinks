@@ -128,9 +128,4 @@ Example divider:
 
 ---
 
-## Contributing & validation
-- If you'd like, this repo can include a small JSON validator in GitHub Actions to prevent malformed `user.json` commits. That helps non-technical contributors avoid mistakes.
-
----
-
 Thanks for using GitLinks — unlimited links, no paywalls, and full control.
