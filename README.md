@@ -77,7 +77,7 @@ Sample `user.json` (ready to copy/paste):
     { "name": "XYZ", "url": "https://example.com" },
     { "name": "spacer", "type": "spacer", "title": "Category 1", "color": "#ffffff" },
     { "name": "XYZ", "url": "https://example.com" },
-    { "name": "XYZ", "url": ""https://example.com" }
+    { "name": "XYZ", "url": "https://example.com" }
   ]
 }
 ```
