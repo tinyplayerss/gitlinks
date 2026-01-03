@@ -7,34 +7,34 @@
   ],
   "bio": "This is my link hub, My name is Jacobus AKA tinyplayerss as some of my friends mention me by my Username, I'm from South Africa.",
   "links": [
-    { "name": "spacer", "type": "spacer", "title": "Platforms i Stream on", "color": "#ffffff" },
+    { "type": "spacer", "title": "Platforms i Stream on", "color": "#ffffff" },
 
     { "name": "I Stream on Rumble", "url": "https://rumble.com/c/tinyplayerss" },
 
-    { "name": "spacer", "type": "spacer", "title": "Support me if You can", "color": "#ffffff" },
+    { "type": "spacer", "title": "Support me if You can", "color": "#ffffff" },
 
     { "name": "Rumble Wallet Tip Jar", "url": "https://wallet.rumble.com/tip/c/tinyplayerss" },
     { "name": "Buy me a Ko-fi", "url": "https://ko-fi.com/tinyplayerss" },
     { "name": "Donate Via PayPal", "url": "https://paypal.me/2players1Gamer" },
 
-    { "name": "spacer", "type": "spacer", "title": "My Projects", "color": "#ffffff" },
+    { "type": "spacer", "title": "My Projects", "color": "#ffffff" },
 
     { "name": "RumbleDash Track Your Goals!", "url": "https://custombar.github.io/RumbleDash/" },
     { "name": "Gitlinks Get Yours here!", "url": "https://github.com/tinyplayerss/gitlinks" },
 
-    { "name": "spacer", "type": "spacer", "title": "Affiliated Links", "color": "#ffffff" },
-
+    { "type": "spacer", "title": "Affiliated Links", "color": "#ffffff" },
+    
     { "name": "Coffee Brand Coffee - Good Coffee!", "url": "https://coffeebrandcoffee.com/?ref=6n24Z4SuI5lPHz" },
     { "name": "Nerd Or Die - Stream Assets", "url": "https://nerdordie.com/shop/ref/tinyplayerss" },
     { "name": "Eklipse.gg - AI Clipping Automatically", "url": "https://eklipse.gg/premium#TINY10" },
 
-    { "name": "spacer", "type": "spacer", "title": "Social Media", "color": "#ffffff" },
+    { "type": "spacer", "title": "Social Media", "color": "#ffffff" },
 
     { "name": "Join the Community!", "url": "https://discord.gg/nJywsXTaFY" },
     { "name": "Steam Group", "url": "https://steamcommunity.com/chat/invite/JoHXesyH" },
     { "name": "X (formerly Twitter)", "url": "https://twitter.com/tinyplayerss" },
 
-    { "name": "spacer", "type": "spacer", "title": "Promoting", "color": "#ffffff" },
+    { "type": "spacer", "title": "Promoting", "color": "#ffffff" },
 
     { "name": "Stop Killing Games", "url": "stopkillingames.com" }
   ]
