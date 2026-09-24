@@ -9,6 +9,7 @@
   "links": [
     { "type": "spacer", "title": "Platforms i Stream on", "color": "#ffffff" },
 
+    { "name": "I Stream on KICK", "url": "https://kick.com/tinyplayerss" },
     { "name": "I Stream on Rumble", "url": "https://rumble.com/c/tinyplayerss" },
 
     { "type": "spacer", "title": "Support me if You can", "color": "#ffffff" },
